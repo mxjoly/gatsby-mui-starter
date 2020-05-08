@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Accueil",
+      "description": "Page d'accueil du site"
+    },
+    "about": {
+      "title": "À propos",
+      "description": "Informations diverses et variées"
+    }
+  },
+  "component": {
+    "header": {
+      "toggle_theme": "Basculer le thème en clair/sombre"
+    }
+  },
+  "page": {
+    "home": {
+      "title": "Bienvenue !",
+      "presentation": "Ceci est un starter basé sur le framework Gatbsy. Il inclut la gestion de thème avec Material-UI, l'internationalisation, et la possibilité d'utiliser Firebase. Le rendu s'adapte également aux différents supports.",
+      "link": "En savoir plus"
+    },
+    "about": {
+      "title": "À propos",
+      "informations": "Si vous ne connaissez pas Gatsby, je vous conseille de regarder vivement.",
+      "link": "Revenir à l'accueil"
+    },
+    "not_found": {
+      "title": "Page introuvable...",
+      "link": "Retourner à l'accueil"
+    }
+  }
+}

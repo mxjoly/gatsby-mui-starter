@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-firebase-starter",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby and Firebase",
+  "version": "0.1.0",
+  "author": "Maxime Joly",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxjoly/gatsby-firebase-starter"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "firebase"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "deploy": "firebase deploy",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.52",
+    "clsx": "^1.1.0",
+    "firebase": "^7.14.2",
+    "gatsby": "^2.21.13",
+    "gatsby-image": "^2.4.1",
+    "gatsby-plugin-firebase": "^0.2.0-beta.4",
+    "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-manifest": "^2.4.2",
+    "gatsby-plugin-material-ui": "^2.1.8",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.6.1",
+    "gatsby-plugin-sitemap": "^2.4.2",
+    "gatsby-source-filesystem": "^2.3.1",
+    "gatsby-transformer-sharp": "^2.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@types/react-helmet": "^5.0.15",
+    "firebase-tools": "^8.2.0"
+  }
+}
