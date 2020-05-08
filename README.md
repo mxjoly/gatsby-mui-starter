@@ -10,7 +10,7 @@ This is a Gatbsy starter project using Material-UI to get responsible layouts, a
 ## Features
   * Uses the popular, well-maintained Material UI React component library
   * Material Design theme and icons
-  * Internationalization (localized route, language switcher, page content)
+  * Internationalization (localized routes, language switcher, page content)
   * Responsive design
   * SEO optimized
   * Twitter Cards meta

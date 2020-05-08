@@ -1,18 +1,19 @@
 {
-  "name": "gatsby-firebase-starter",
+  "name": "gatsby-mui-starter",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Firebase",
+  "description": "A simple starter to get up and developing quickly with Gatsby and Material-UI",
   "version": "0.1.0",
   "author": "Maxime Joly",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxjoly/gatsby-firebase-starter"
+    "url": "https://github.com/mxjoly/gatsby-mui-starter"
   },
   "keywords": [
     "gatsby",
     "starter",
-    "firebase"
+    "firebase",
+    "material-ui"
   ],
   "scripts": {
     "build": "gatsby build",
