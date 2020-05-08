@@ -6,7 +6,8 @@ import Typography from "@material-ui/core/Typography"
 import Grid from "@material-ui/core/Grid"
 import ToggleButton from "@material-ui/lab/ToggleButton"
 import Tooltip from "@material-ui/core/Tooltip"
-import ThemeIcon from "@material-ui/icons/Brightness7"
+import MoonIcon from "@material-ui/icons/Brightness2"
+import SunnyIcon from "@material-ui/icons/WbSunny"
 
 
 import { useThemeContext } from "@themes/context"
@@ -30,7 +31,7 @@ const useStyles = makeStyles(
 const Header = () => {
   const intl = useIntl()
   const classes = useStyles()
-  const { toggleTheme } = useThemeContext()
+  const { theme, toggleTheme } = useThemeContext()
   const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -54,8 +55,8 @@ const Header = () => {
         <Grid item>
           <Grid container>
             <Tooltip title={intl.formatMessage({ id: "component.header.toggle_theme" })}>
-              <ToggleButton onChange={() => toggleTheme()} className={classes.toggle} value="toggle_theme">
-                <ThemeIcon />
+              <ToggleButton onChange={toggleTheme} className={classes.toggle} value="toggle_theme">
+                {theme === 'light' ? <MoonIcon /> : <SunnyIcon />}
               </ToggleButton>
             </Tooltip>
             <Language />

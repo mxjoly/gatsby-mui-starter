@@ -18,7 +18,7 @@ const useStyles = makeStyles(
   })
 )
 
-const Home = ({ location, pathContext }) => {
+const Home = ({ location, pageContext }) => {
   const classes = useStyles()
   const intl = useIntl()
   return (
@@ -30,7 +30,7 @@ const Home = ({ location, pathContext }) => {
             title={intl.formatMessage({ id: "metadata.home.title" })}
             description={intl.formatMessage({ id: "metadata.home.description" })}
             path={location.pathname}
-            originalPath={pathContext.intl.originalPath}
+            originalPath={pageContext.intl.originalPath}
           />
           <Grid
             item
